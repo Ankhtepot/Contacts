@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Csharp\WPF\WPF_Masterclass_projects\Contacts\App.xaml
-3465661155
+4-874958660
 2-1623607040
-14-384943835
+155092737
 123-771992091
-ContactDetailWindow.xaml;MainWindow.xaml;NewContactWindow.xaml;
+ContactDetailWindow.xaml;Controls\ContactControl.xaml;MainWindow.xaml;NewContactWindow.xaml;
 
 False
 

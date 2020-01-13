@@ -33,6 +33,7 @@ namespace Contacts
             InitializeComponent();            
 
             ReadDatabase();
+
             if(contacts != null)
             {
                 sqliteConnectionButton.Style = FindResource(App.SUCCESS_BUTTON_STYLE) as Style;
@@ -52,7 +53,6 @@ namespace Contacts
             if (SqlService != null)
             {
                 contacts = SqlService.ReadAllContacts();
-                    
 
                 if (contacts != null)
                 {
@@ -79,14 +79,13 @@ namespace Contacts
 
         private void searchTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            
-
             if (contacts != null && contacts.Count > 0)
             {
                 TextBox searchTexBox = (TextBox)sender; // alternatively = sender as textBox
 
                 var filteredList = contacts
-                    .Where(contact => contact.Name.ToLower().Contains(searchTexBox.Text.ToLower()))
+                    .Where(contact => contact.Name.ToLower()
+                    .Contains(searchTexBox.Text.ToLower()))
                     .ToList();
 
                 contactsListView.ItemsSource = filteredList;
@@ -120,7 +119,9 @@ namespace Contacts
         {
             contacts = null;
             SqlService = new SqlService(SqlDaoType.SQLiteDao);
+
             ReadDatabase();
+
             if(contacts != null)
             {
                 sqliteConnectionButton.Style = FindResource(App.SUCCESS_BUTTON_STYLE) as Style;
@@ -132,7 +133,9 @@ namespace Contacts
         {
             contacts = null;
             SqlService = new SqlService(SqlDaoType.SQLOracle);
+
             ReadDatabase();
+
             if (contacts != null)
             {
                 sqliteConnectionButton.Style = FindResource(App.BASE_BUTTON_STYLE) as Style;

@@ -22,7 +22,6 @@ namespace Contacts
         public const string SERVICE_NAME = "XE";
         public static string SqlError = "";
 
-
         public const string BASE_TEXTBOX_STYLE = "baseTextBoxStyle";
         public const string DISSABLED_TEXTBOX_STYLE = "dissabledTextBoxStyle";
         public const string ERROR_TEXTBLOCK_STYLE = "errorTextBlockStyle";

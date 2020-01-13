@@ -1,7 +1,6 @@
 D:\Csharp\WPF\WPF_Masterclass_projects\Contacts\bin\Debug\Contacts.exe.config
 D:\Csharp\WPF\WPF_Masterclass_projects\Contacts\bin\Debug\Contacts.exe
 D:\Csharp\WPF\WPF_Masterclass_projects\Contacts\bin\Debug\Contacts.pdb
-D:\Csharp\WPF\WPF_Masterclass_projects\Contacts\obj\Debug\Contacts.csprojAssemblyReference.cache
 D:\Csharp\WPF\WPF_Masterclass_projects\Contacts\obj\Debug\MainWindow.g.cs
 D:\Csharp\WPF\WPF_Masterclass_projects\Contacts\obj\Debug\newContactWindow.g.cs
 D:\Csharp\WPF\WPF_Masterclass_projects\Contacts\obj\Debug\App.g.cs
@@ -28,3 +27,7 @@ D:\Csharp\WPF\WPF_Masterclass_projects\Contacts\obj\Debug\Contacts.csproj.CopyCo
 D:\Csharp\WPF\WPF_Masterclass_projects\Contacts\obj\Debug\ContactDetailWindow.g.cs
 D:\Csharp\WPF\WPF_Masterclass_projects\Contacts\obj\Debug\App.baml
 D:\Csharp\WPF\WPF_Masterclass_projects\Contacts\obj\Debug\ContactDetailWindow.baml
+D:\Csharp\WPF\WPF_Masterclass_projects\Contacts\obj\Debug\Controls\ContactControl.g.cs
+D:\Csharp\WPF\WPF_Masterclass_projects\Contacts\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Csharp\WPF\WPF_Masterclass_projects\Contacts\obj\Debug\Controls\ContactControl.baml
+D:\Csharp\WPF\WPF_Masterclass_projects\Contacts\obj\Debug\Contacts.csprojAssemblyReference.cache

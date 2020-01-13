@@ -9,8 +9,6 @@ using System.Threading.Tasks;
 
 namespace Contacts.Classes.OracleXE
 {
-
-    
     public class SQLOracle : ISqlDao
     {
         public string ConnectionString { get; set; }
